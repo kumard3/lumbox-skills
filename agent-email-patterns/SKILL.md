@@ -1,6 +1,6 @@
 ---
 name: agent-email-patterns
-description: Production patterns for AI agents that use email — signup-and-verify, email-based 2FA during browser automation, multi-agent inbox isolation, agent-to-human threads, and security hardening against prompt injection. Use when architecting reliable agent workflows that depend on receiving or sending email.
+description: Production patterns for AI agents that use email - signup-and-verify, email-based 2FA during browser automation, multi-agent inbox isolation, agent-to-human threads, and security hardening against prompt injection. Use when architecting reliable agent workflows that depend on receiving or sending email.
 ---
 
 # Agent Email Patterns
@@ -16,7 +16,7 @@ One inbox per service-account keeps verification emails unambiguous.
 
 ## 2. Email 2FA inside browser automation
 
-Pair a Lumbox inbox with the encrypted credential vault so a Playwright/Puppeteer agent can log in, hit a 2FA prompt, fetch the code via `/otp`, and continue — no human in the loop.
+Pair a Lumbox inbox with the encrypted credential vault so a Playwright/Puppeteer agent can log in, hit a 2FA prompt, fetch the code via `/otp`, and continue - no human in the loop.
 
 ## 3. Multi-agent isolation
 

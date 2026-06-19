@@ -1,6 +1,6 @@
 ---
 name: lumbox-sdk
-description: Use the Lumbox SDK to give AI agents email — create inboxes, long-poll for OTPs, and send/reply/forward from TypeScript or Python. Use when integrating Lumbox into agent code with the official npm or PyPI package instead of raw HTTP.
+description: Use the Lumbox SDK to give AI agents email - create inboxes, long-poll for OTPs, and send/reply/forward from TypeScript or Python. Use when integrating Lumbox into agent code with the official npm or PyPI package instead of raw HTTP.
 ---
 
 # Lumbox SDK

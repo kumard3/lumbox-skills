@@ -1,6 +1,6 @@
 ---
 name: wait-for-otp
-description: Block until an OTP code arrives at a Lumbox inbox and return the parsed code. Avoids polling loops — the request long-polls the server.
+description: Block until an OTP code arrives at a Lumbox inbox and return the parsed code. Avoids polling loops - the request long-polls the server.
 version: 1.0.0
 ---
 
@@ -52,5 +52,5 @@ Use this skill when an AI agent has triggered an OTP-bearing email (e.g. by subm
 
 ## Related skills
 
-- `create-lumbox-inbox` — provision the inbox first
-- `send-email` — reply to the OTP sender or confirm receipt
+- `create-lumbox-inbox` - provision the inbox first
+- `send-email` - reply to the OTP sender or confirm receipt

@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Send an Email
 
-Use this skill when an AI agent needs to send an email — a reply, a notification, a form submission, or outbound agent-to-human communication.
+Use this skill when an AI agent needs to send an email - a reply, a notification, a form submission, or outbound agent-to-human communication.
 
 ## When to use
 
@@ -46,7 +46,7 @@ Use this skill when an AI agent needs to send an email — a reply, a notificati
    }
    ```
 
-3. **For replies, use the reply endpoint** instead — it sets `In-Reply-To` and `References` headers correctly so the email threads in the recipient's client:
+3. **For replies, use the reply endpoint** instead - it sets `In-Reply-To` and `References` headers correctly so the email threads in the recipient's client:
 
    ```bash
    curl -X POST "https://api.lumbox.co/v1/inboxes/$INBOX_ID/reply" \
@@ -60,12 +60,12 @@ Use this skill when an AI agent needs to send an email — a reply, a notificati
 
 ## Tips
 
-- Sending uses AWS SES under the hood — deliverability is high.
+- Sending uses AWS SES under the hood - deliverability is high.
 - For bulk sends (up to 100 recipients at once), use `/v1/send/bulk`.
 - Attachments: include a `attachments` array with `filename` and base64 `content`.
 - To forward: use `/v1/inboxes/:id/forward` with the email ID and new recipient.
 
 ## Related skills
 
-- `create-lumbox-inbox` — provision the sending inbox
-- `wait-for-otp` — receive the reply if the recipient sends one back
+- `create-lumbox-inbox` - provision the sending inbox
+- `wait-for-otp` - receive the reply if the recipient sends one back

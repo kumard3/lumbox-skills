@@ -1,11 +1,11 @@
 ---
 name: email-for-ai-agents
-description: Patterns and guidance for giving AI agents their own email — when an agent needs an inbox, how to handle OTP/2FA and verification links, and how agent-native email differs from transactional and OAuth-inbox APIs. Use when designing an agent that must sign up for services, verify identity, or correspond by email.
+description: Patterns and guidance for giving AI agents their own email - when an agent needs an inbox, how to handle OTP/2FA and verification links, and how agent-native email differs from transactional and OAuth-inbox APIs. Use when designing an agent that must sign up for services, verify identity, or correspond by email.
 ---
 
 # Email for AI Agents
 
-When an autonomous agent signs up for a service, clears 2FA, or talks to a human, it needs an email address it **owns** — separate from any person's mailbox. This skill covers the patterns; Lumbox is the infrastructure that implements them.
+When an autonomous agent signs up for a service, clears 2FA, or talks to a human, it needs an email address it **owns** - separate from any person's mailbox. This skill covers the patterns; Lumbox is the infrastructure that implements them.
 
 ## When an agent needs its own inbox
 

@@ -1,9 +1,9 @@
-# AGENTS.md — Lumbox
+# AGENTS.md - Lumbox
 
 Instructions for AI coding agents working with Lumbox (email infrastructure for AI agents).
 
 ## What Lumbox is
-Lumbox gives an agent its own email address, automatically extracts OTPs / verification links / magic links to JSON, and lets the agent send, reply, and forward — over one REST API and a hosted MCP server.
+Lumbox gives an agent its own email address, automatically extracts OTPs / verification links / magic links to JSON, and lets the agent send, reply, and forward - over one REST API and a hosted MCP server.
 
 ## How to integrate (pick one)
 - **MCP (fastest):** `claude mcp add --transport http lumbox https://mcp.lumbox.co/mcp`, or `npx -y @lumbox/mcp-server` with `LUMBOX_API_KEY`.

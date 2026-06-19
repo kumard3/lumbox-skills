@@ -1,10 +1,10 @@
 ---
 name: lumbox
-description: Give an AI agent its own email — create inboxes, send and receive email, wait for OTP codes, all self-service with no human signup. Use when an agent needs an email address to sign up for services, receive verification codes, or manage correspondence.
+description: Give an AI agent its own email - create inboxes, send and receive email, wait for OTP codes, all self-service with no human signup. Use when an agent needs an email address to sign up for services, receive verification codes, or manage correspondence.
 version: 1.0.0
 ---
 
-# Lumbox — email for AI agents
+# Lumbox - email for AI agents
 
 Lumbox gives agents real email inboxes via CLI, REST API, or MCP. An agent can provision
 itself with no human account creation.

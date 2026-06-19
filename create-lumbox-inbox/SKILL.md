@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Create a Lumbox Inbox
 
-Use this skill when an AI agent needs a real, working email address — for example, to sign up for a third-party service, receive an OTP, or communicate with humans.
+Use this skill when an AI agent needs a real, working email address - for example, to sign up for a third-party service, receive an OTP, or communicate with humans.
 
 ## When to use
 
@@ -50,5 +50,5 @@ Use this skill when an AI agent needs a real, working email address — for exam
 
 ## Related skills
 
-- `wait-for-otp` — block until an OTP code arrives
-- `send-email` — send email from an inbox
+- `wait-for-otp` - block until an OTP code arrives
+- `send-email` - send email from an inbox

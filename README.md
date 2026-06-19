@@ -1,6 +1,6 @@
 # Lumbox Skills
 
-Official agent skills for [Lumbox](https://lumbox.co) — email infrastructure for AI agents. Give an agent its own inbox, extract OTPs and verification links to JSON, and send/reply/forward over one REST API and a hosted MCP server.
+Official agent skills for [Lumbox](https://lumbox.co) - email infrastructure for AI agents. Give an agent its own inbox, extract OTPs and verification links to JSON, and send/reply/forward over one REST API and a hosted MCP server.
 
 ## Install a skill
 
